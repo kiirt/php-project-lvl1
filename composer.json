@@ -1,0 +1,14 @@
+{
+    "name": "kiirt/brain-games",
+    "bin": ["bin/brain-games"],
+    "description": "brain-games",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kiirt",
+            "email": "entkirrt@gmail.com"
+        }
+    ],
+    "require": {}
+}
