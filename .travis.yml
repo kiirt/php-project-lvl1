@@ -1,7 +1,8 @@
 language: php
+
 php:
-  - '7.2'
+  - '7.4'
 
-install: make install
-
-script: make lint
+script: 
+  - make install
+  - make lint
