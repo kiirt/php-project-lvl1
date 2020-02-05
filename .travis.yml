@@ -1,8 +1,11 @@
 language: php
 
 php:
-  - '7.4'
+  - '7.3'
 
-script: 
+install:
+  - composer self-update
   - make install
+
+script:
   - make lint
