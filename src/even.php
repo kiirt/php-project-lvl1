@@ -2,8 +2,8 @@
 
 namespace BrainGames\Even;
 
-use function \cli\line;
-use function \cli\prompt;
+use function cli\line;
+use function cli\prompt;
 
 define('COUNT_GAMES', 3);
 
@@ -18,8 +18,8 @@ function run()
     line('');
 
     $count = 0;
-    while($count < COUNT_GAMES) {
-        if(game($name)) {
+    while ($count < COUNT_GAMES) {
+        if (game($name)) {
             $count++;
         } else {
             return;
@@ -34,7 +34,7 @@ function game($name)
     line("Question: %s", $number);
     $answer = prompt('Your answer');
     $true_answer = ($number % 2 == 0) ? 'yes' : 'no';
-    if($answer == $true_answer) {
+    if ($answer == $true_answer) {
         line('Correct!');
         return true;
     } else {
