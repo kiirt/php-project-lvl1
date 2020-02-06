@@ -1,6 +1,9 @@
 {
     "name": "kiirt/brain-games",
-    "bin": ["bin/brain-games"],
+    "bin": [
+        "bin/brain-games",
+        "bin/brain-even"
+    ],
     "type": "library",
     "authors": [
         {
@@ -15,7 +18,8 @@
     },
     "autoload": {
         "files": [
-            "src/сli.php"
+            "src/сli.php",
+            "src/even.php"
         ]
     },
     "require-dev": {
