@@ -10,4 +10,4 @@ if (file_exists($autoloadPath1)) {
     require_once $autoloadPath2;
 }
 
-BrainGames\games\even\run();
+BrainGames\games\calc\run();
