@@ -2,7 +2,7 @@
 
 namespace BrainGames\games\even;
 
-use function BrainGames\Engine\play;
+use function BrainGames\engine\play;
 
 define('RULE_EVEN', 'Answer "yes" if the number is even, otherwise answer "no".');
 

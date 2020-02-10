@@ -19,7 +19,8 @@
     "autoload": {
         "files": [
             "src/сli.php",
-            "src/even.php"
+            "src/games/even.php",
+            "src/games/calc.php"
         ]
     },
     "require-dev": {
