@@ -8,14 +8,17 @@
         "bin/brain-progression",
         "bin/brain-prime"
     ],
-    "type": "library",
+    "type": "project",
     "authors": [
         {
             "name": "kiirt",
             "email": "entkirrt@gmail.com"
         }
     ],
-    "description": "brain-games",
+    "description": "brain-games php-package",
+    "keywords": [
+        "brain", "games"
+    ],
     "license": "MIT",
     "scripts": {
         "phpcs": "phpcs"
