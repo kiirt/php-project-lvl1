@@ -1,6 +1,8 @@
 # php-project-lvl1
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/5381963c98e260605221/maintainability)](https://codeclimate.com/github/kiirt/php-project-lvl1/maintainability) [![Build Status](https://travis-ci.com/kiirt/php-project-lvl1.svg?branch=master)](https://travis-ci.com/kiirt/php-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5381963c98e260605221/maintainability)](https://codeclimate.com/github/kiirt/php-project-lvl1/maintainability) [![Build Status](https://travis-ci.com/kiirt/brain-games.svg?branch=master)](https://travis-ci.com/kiirt/brain-games)
+
+
 > installation:
 >
 >``composer global require kiirt/brain-games``
